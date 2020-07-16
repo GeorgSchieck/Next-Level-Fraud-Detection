@@ -1,6 +1,12 @@
 # Next-Level-Fraud-Detection
 Data Exploration Projekt 2020
 
+Gruppenmitglieder:
+Anabel Lilja
+Bjarne Gerdes
+Raphael Schmidt
+Georg Schieck
+
 Locally execute the code:
 
 1. Navigate to the folder containing the dockerfile using a terminal
