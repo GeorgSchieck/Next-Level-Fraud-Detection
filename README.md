@@ -8,6 +8,15 @@ Bjarne Gerdes,
 Raphael Schmidt, 
 Georg Schieck
 
+Motivation and Objective of this project:
+
+The Objective of this project is to develop and build a machine learning model which can be used to
+detect and event prevent fraudulent transactions. Mobile payment methods have taken their place among the
+most relevant ways pay in everyday life. At the same time fraudster are motivated to find new ways to overcome the
+security measurements established by the financial institutes. PayPal reported a total loss of 1011 Million USD 
+in a single year in 2017. Preventing the fraudulent transactions will minimize the loss in monetary value while also
+raise the customer satisfaction which is the motivation for developing the above stated machine learning algorithm.
+
 Locally execute the code:
 
 1. Navigate to the folder containing the dockerfile using a terminal
