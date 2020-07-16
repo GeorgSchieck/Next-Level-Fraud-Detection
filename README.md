@@ -2,6 +2,7 @@
 Data Exploration Projekt 2020
 
 Gruppenmitglieder:
+
 Anabel Lilja
 Bjarne Gerdes
 Raphael Schmidt
