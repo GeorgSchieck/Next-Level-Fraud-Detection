@@ -1,7 +1,7 @@
 # Next-Level-Fraud-Detection
 Data Exploration Projekt 2020
 
-**Gruppenmitglieder:**
+**Projectmembers:**
 
 Anabel Lilja, 
 Bjarne Gerdes, 
