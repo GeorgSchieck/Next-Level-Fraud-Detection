@@ -39,7 +39,7 @@ Alternatively a version based on a server can be used. If this is the case the e
 **Notes:**
 
 1. It is recommended to use the website at ""http://fraud-detection.schmidt-development.de/".
-2."http://h2655330.stratoserver.net:1213/post/model" will not work on the server because not enough RAM is provided.
+2. "http://h2655330.stratoserver.net:1213/post/model" will not work on the server because not enough RAM is provided.
 3. Data from file ORM_Datamodel,py from the folder RequestHandlerData can be obtained from kaggle.com (link).
 4. If the database is not available a backup is found at https://drive.google.com/file/d/1dND0QN0Rb5JotDAO2AFRrhSQnMNCou_Q/view?usp=sharing.
 
