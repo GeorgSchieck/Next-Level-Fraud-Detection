@@ -16,12 +16,12 @@ from RequestHandlerData import ORM_Datamodel as ORM
 from RequestHandlerModel import Predict
 from RequestHandlerModel import Retrain
 
+# API initialisieren
 app = flask.Flask(__name__)
 CORS(app)
 
+# Datenbankverbindung aufbauen
 session = ORM.CreateSession()
-
-step = datetime.today().hour + 744
 
 
 @app.route('/post/tx', methods=['POST'])
@@ -32,6 +32,9 @@ def post_tx():
         type_name = data["type"]
         nameOrig = str(data["nameOrig"])
         nameDest = str(data["nameDest"])
+
+	# Step-Variable abbilden für Feature Engineering
+	step = datetime.today().hour + 744
 
         isFraud = TX(amount, type_name, nameOrig, nameDest, step)
         result = make_response(str(isFraud))
@@ -55,9 +58,7 @@ def post_model():
 
 # Szenario: Kundentransaktion
 def TX(amount, type_name, nameOrig, nameDest, step):
-    # Bei Step bin ich unsicher, wie wird damit umgehen
-    # Würde aber vorschlagen eine Differenz in Stunden zu
-    # Tag X zu nehmen
+
     builder = DataBuilder.DataBuilder(amount, type_name, \
                                       nameOrig, nameDest, step)
     builder.GetRelevantData()
