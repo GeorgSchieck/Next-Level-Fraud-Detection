@@ -36,7 +36,7 @@ Alternatively a version based on a server can be used. If this is the case the e
 2. Execute the command "npm install" (node.js needs to be installed)
 3. Run the website using the command "npm run dev"
 
-** Accessing the data **
+**Accessing the data**
 
 The data can be accessed by:
 1. An SQL-Alchemy connection using the file ./ReuqestHandlerData/ORM_Datamodel.py 
